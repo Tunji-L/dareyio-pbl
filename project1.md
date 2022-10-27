@@ -18,7 +18,7 @@ Each letter in the acronym stands for one of its four open-source building block
 
 ## Launch EC2 on AWS
 - Login to the aws account
-- Select region from the left hand corner of the dashboard
+- Select region from the right hand corner of the dashboard
 ![location](./images/project1/region.png)
 
 - Create a keypair from the ec2 instance dashboard and download it
@@ -43,7 +43,7 @@ $ ssh -i <private-key-name>.pem ubuntu@<public-ip-address>
 ![ssh](./images/project1/ssh.png)
 
 ## Install Apache
-- Update the list of packages in the package manager using;
+- Update the list of packages in the package manager using
 ```
 $ sudo apt update
 ```
@@ -77,13 +77,13 @@ $ sudo mysql
 ```
 - Set a password for the root user, using mysql_native_password as default authentication method to run the security script that comes pre-installed with MySQL. This script will remove some insecure default settings and lock down access to your database system.
 ```
-mysql > ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+mysql> ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 ```
 > Replace 'password' with any password of your choice
 
 - Exit the MySQL shell with:
 ```
-mysql > exit
+mysql> exit
 ```
 ![mysql](./images/project1/mysql.png)
 - Start the interractive security script by running;
