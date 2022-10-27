@@ -124,7 +124,6 @@ In this step, you will set up a domain called `projectlamp`, but you can replace
 
 Apache on Ubuntu 20.04 has one server block enabled by default that is configured to serve documents from the `/var/www/html` directory.
 You can leave this configuration as it is and add your own directory next to the default one.
-
 - Create a directory for projectlamp in the `www` folder
 ```
 $ sudo mkdir /var/www/projectlamp
