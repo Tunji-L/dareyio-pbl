@@ -341,6 +341,9 @@ INSERT INTO users (id, username, password, email, user_type, status) VALUES (2, 
 ```
 http://<Web-Server-Public-IP-Address-or-Public-DNS-Name>/index.php 
 ```
+![login](./images/project7/login.png)
+
+![](./images/project7/tooling.png)
 
 > If you encounter 403 Error – check permissions to your /var/www/html folder and also disable SELinux using `sudo setenforce 0`
 
