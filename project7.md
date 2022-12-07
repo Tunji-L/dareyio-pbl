@@ -327,10 +327,13 @@ $ sudo cp -R tooling/html/* /var/www/html/
 ```
 $ vi /var/www/html/functions.php
 ```
+![function](./images/project7/function.png)
 
 - Enter the `tooling` directory and apply `tooling-db.sql` script to your database using this command;
 ```
-mysql -h <databse-private-ip> -u <db-username> -p <db-name> < tooling-db.sql
+$ sudo yum install mysql
+
+$ mysql -h <databse-private-ip> -u <db-username> -p <db-name> < tooling-db.sql
 ```
 - Create in MySQL a new admin user with username: myuser and password: password:
 ```
